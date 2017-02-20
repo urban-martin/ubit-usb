@@ -38,9 +38,7 @@ def main():
         osc_msg.append(float(data_pitch))
         osc_msg.append(float(data_roll))
         wekinator.send(osc_msg)
-        print "Message sent to weinator: " + incoming_data
-        print "----------"
-        print ""
+
 
 
 if __name__ == '__main__':
